@@ -1,0 +1,9 @@
+$(function(){
+    $("p").click(function(){
+        $(this).hide();
+    })
+    $("h2").click(function(){
+        $("#test1").hide();
+        $("#test4").hide();
+    })
+})
